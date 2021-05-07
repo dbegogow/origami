@@ -1,8 +1,11 @@
+import style from './Menu.module.css';
 import Aside from './Aside';
 
 const Menu = () => {
     return (
-        <Aside />
+        <div className={style.container}>
+            <Aside />
+        </div>
     );
 }
 
