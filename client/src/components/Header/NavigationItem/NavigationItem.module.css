@@ -1,9 +1,9 @@
-.navListItem {
+.linkNavigationItem {
     color: white;
     text-decoration: none;
 }
 
-.listItem {
+.navigationItem {
     display: inline-block;
     height: auto;
     margin-right: 2%;
@@ -13,13 +13,13 @@
     vertical-align: top;
 }
 
-.listItem:not(:first-child) {
+.navigationItem:not(:first-child) {
     padding: 2%;
     margin-top: 1.5%;
     border-top: 2px solid #ffa000;
 }
 
-.listItem:hover {
+.navigationItem:hover {
     border-top: none;
     border-bottom: 2px solid #ffa000;
     font-weight: bold;

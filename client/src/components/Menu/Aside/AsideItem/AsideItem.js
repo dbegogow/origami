@@ -2,8 +2,8 @@ import style from "./AsideItem.module.css";
 
 const AsideItem = (props) => {
     return (
-        <li className={style.listItem}>
-            <a href="#" className={style.asideListItem}>{props.children}</a>
+        <li className={style.asideItem}>
+            <a href="#" className={style.linkAsideItem}>{props.children}</a>
         </li>
     );
 };

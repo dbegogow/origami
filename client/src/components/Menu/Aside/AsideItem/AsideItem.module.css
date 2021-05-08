@@ -1,4 +1,4 @@
-.listItem {
+.asideItem {
     display: block;
     width: 98%;
     border-left: 2px solid #234465;
@@ -8,7 +8,7 @@
     text-align: center;
 }
 
-.asideListItem {
+.linkAsideItem {
     color: #234465;
     text-align: center;
     text-decoration: none;
@@ -17,7 +17,7 @@
     display: block;
 }
 
-.listItem:hover {
+.asideItem:hover {
     border-left: none;
     border-right: none;
     font-weight: bold;
