@@ -10,11 +10,11 @@ const Menu = () => {
         <div className={style.container}>
             <Aside />
             <Switch>
-                <Route path="/about">
-                    <About />
-                </Route>
                 <Route path="/contact-us">
                     <ContactUs />
+                </Route>
+                <Route path="/about">
+                    <About />
                 </Route>
                 <Route path="/">
                     <Main />
