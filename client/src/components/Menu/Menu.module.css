@@ -1,6 +1,19 @@
 .container {
     margin-top: 8.5%;
     padding: 0.5%;
-    /* border: 1px solid purple; */
     margin-bottom: 0.1%;
+}
+
+.main {
+    display: inline-block;
+    width: 83%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+.heading {
+    text-align: center;
+    color: #234465;
+    text-decoration: underline;
+    margin-bottom: 2%;
 }

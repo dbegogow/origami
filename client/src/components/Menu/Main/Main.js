@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import style from './Main.module.css';
+import menuStyle from '../Menu.module.css';
 import AuthorPost from './AuthorPost';
 
 const Main = () => {
@@ -12,8 +13,8 @@ const Main = () => {
     }, []);
 
     return (
-        <main className={style.main}>
-            <h1 className={style.heading}>Sooooooooome Heading</h1>
+        <main className={menuStyle.main}>
+            <h1 className={menuStyle.heading}>Sooooooooome Heading</h1>
             <div className={style.posts}>
                 {state.map(x => (
                     <AuthorPost
