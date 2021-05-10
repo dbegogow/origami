@@ -4,6 +4,7 @@ import Aside from './Aside';
 import Main from './Main';
 import About from './About';
 import ContactUs from './ContactUs';
+import NumPage from './NumPage';
 
 const Menu = () => {
     return (
@@ -13,13 +14,16 @@ const Menu = () => {
                 <Route path="/" exact>
                     <Main />
                 </Route>
-                <Route path="/about">
+                <Route path="/about" exact>
                     <About />
                 </Route>
+                <Route path="/about/:pageNum" component={NumPage} />
                 <Route path="/contact-us">
                     <ContactUs />
                 </Route>
-                <Route render={() => <h1>Error Page</h1>} />
+                <Route>
+                    <h1>Error</h1>
+                </Route>
             </Switch>
         </div>
     );

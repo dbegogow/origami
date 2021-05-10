@@ -9,14 +9,14 @@ const Header = () => {
                 <NavigationItem title="Home" route="/" />
                 <NavigationItem title="About" route="/about" />
                 <NavigationItem title="Contact Us" route="/contact-us" />
-                <NavigationItem title="Going to 3" />
-                <NavigationItem title="Going to 4" />
-                <NavigationItem title="Going to 5" />
-                <NavigationItem title="Going to 6" />
-                <NavigationItem title="Going to 7" />
-                <NavigationItem title="Going to 8" />
-                <NavigationItem title="Going to 9" />
-                <NavigationItem title="Going to 10" />
+                <NavigationItem title="Going to 4" route="/about/4" />
+                <NavigationItem title="Going to 5" route="/about/5" />
+                <NavigationItem title="Going to 6" route="/about/6" />
+                <NavigationItem title="Going to 7" route="/about/7" />
+                <NavigationItem title="Going to 8" route="/about/8" />
+                <NavigationItem title="Going to 9" route="/about/9" />
+                <NavigationItem title="Going to 10" route="/about/10" />
+                <NavigationItem title="Going to 11" route="/about/11" />
             </ul>
         </nav>
     );
