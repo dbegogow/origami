@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import style from './Header.module.css'
 import NavigationItem from './NavigationItem'
 
@@ -6,17 +7,17 @@ const Header = () => {
         <nav className={style.navigation}>
             <ul>
                 <li className={style.listItem}><img src="/white-origami-bird.png" alt="White origami" /></li>
-                <NavigationItem>Going to 1</NavigationItem>
-                <NavigationItem>Going to 2</NavigationItem>
-                <NavigationItem>Going to 3</NavigationItem>
-                <NavigationItem>Going to 4</NavigationItem>
-                <NavigationItem>Going to 5</NavigationItem>
-                <NavigationItem>Going to 6</NavigationItem>
-                <NavigationItem>Going to 7</NavigationItem>
-                <NavigationItem>Going to 8</NavigationItem>
-                <NavigationItem>Going to 9</NavigationItem>
-                <NavigationItem>Going to 10</NavigationItem>
-                <NavigationItem>Going to 11</NavigationItem>
+                <NavigationItem title="Home" route="/" />
+                <NavigationItem title="About" route="/about" />
+                <NavigationItem title="Contact Us" route="/contact-us" />
+                <NavigationItem title="Going to 3" />
+                <NavigationItem title="Going to 4" />
+                <NavigationItem title="Going to 5" />
+                <NavigationItem title="Going to 6" />
+                <NavigationItem title="Going to 7" />
+                <NavigationItem title="Going to 8" />
+                <NavigationItem title="Going to 9" />
+                <NavigationItem title="Going to 10" />
             </ul>
         </nav>
     );

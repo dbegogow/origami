@@ -10,15 +10,16 @@ const Menu = () => {
         <div className={style.container}>
             <Aside />
             <Switch>
-                <Route path="/contact-us">
-                    <ContactUs />
+                <Route path="/" exact>
+                    <Main />
                 </Route>
                 <Route path="/about">
                     <About />
                 </Route>
-                <Route path="/">
-                    <Main />
+                <Route path="/contact-us">
+                    <ContactUs />
                 </Route>
+                <Route render={() => <h1>Error Page</h1>} />
             </Switch>
         </div>
     );
