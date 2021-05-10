@@ -1,4 +1,6 @@
-.linkNavigationItem {
+.linkNavigationItem,
+.linkNavigationItem:active,
+.linkNavigationItem:focus {
     color: white;
     text-decoration: none;
 }
