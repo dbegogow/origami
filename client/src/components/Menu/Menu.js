@@ -5,6 +5,7 @@ import Main from './Main';
 import About from './About';
 import ContactUs from './ContactUs';
 import NumPage from './NumPage';
+import ErrorPage from './ErrorPage';
 
 const Menu = () => {
     return (
@@ -22,7 +23,7 @@ const Menu = () => {
                     <ContactUs />
                 </Route>
                 <Route>
-                    <h1>Error</h1>
+                    <ErrorPage />
                 </Route>
             </Switch>
         </div>
