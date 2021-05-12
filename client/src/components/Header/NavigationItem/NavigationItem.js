@@ -4,7 +4,7 @@ import style from './NavigationItem.module.css';
 const NavigationItem = (props) => {
     return (
         <Link to={props.route} className={style.navigationItem}>
-            <span className={style.linkNavigationItem}>{props.title}</span>
+            <span>{props.title}</span>
         </Link>
     );
 };
